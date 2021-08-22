@@ -1,0 +1,44 @@
+<SwitchLayout>:
+    BoxLayout:
+        size_hint_y: None
+        height: '48dp'
+
+        Label:
+            text: 'Switch normal'
+        
+        Switch:
+            active: False
+            on_active: root.switch_callback(self, self.active)
+
+    BoxLayout:
+        size_hint_y: None
+        height: '48dp'
+
+        Label:
+            text: 'Switch active'
+        
+        Switch:
+            active: True
+            on_active: root.switch_callback(self, self.active)
+
+    BoxLayout:
+        size_hint_y: None
+        height: '48dp'
+
+        Label:
+            text: 'Switch off & disabled'
+        
+        Switch:
+            active: False
+            disabled: True
+
+    BoxLayout:
+        size_hint_y: None
+        height: '48dp'
+
+        Label:
+            text: 'Switch on & disabled'
+        
+        Switch:
+            active: True
+            disabled: True

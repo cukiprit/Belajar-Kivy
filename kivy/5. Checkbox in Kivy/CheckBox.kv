@@ -1,0 +1,38 @@
+<CustLabel@Label>:
+    color: .761, .190, .810, 1
+
+<CheckBoxLayout>:
+    orientation: 'vertical'
+    padding: dp(10)
+    spacing: dp(10)
+
+    CustLabel:
+        text: 'Jenis Kelamin'
+        size_hint_x: 1
+        font_size: dp(30)
+
+    BoxLayout:
+        orientation: 'horizontal'
+        height: 20
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_x: .22
+
+            CustLabel:
+                text: "Laki-laki"
+                size_hint_x: .80
+                font_size: dp(30)
+            CheckBox:
+                color: .294, .761, .623
+                on_active: root.value_checkbox(self, self.active)
+                size_hint_x: .20
+
+            CustLabel:
+                text: "Perempuan"
+                size_hint_x: .80
+                font_size: dp(30)
+            CheckBox:
+                color: .294, .761, .623
+                on_active: root.value_checkbox(self, self.active)
+                size_hint_x: .20

@@ -1,0 +1,28 @@
+<SliderWidget>:
+    Slider:
+        orientation: 'vertical'
+        min: 0
+        max: 100
+        value: 0
+
+        on_value: label1.text = str(int(self.value))
+
+    Label:
+        id: label1
+        font_size: "30dp"
+        text: '0'
+        color: 2, 1, 3, 1
+
+    Slider:
+        orientation: 'horizontal'
+        min: 0
+        max: 100
+        value: 0
+
+        on_value: label2.text = str(int(self.value))
+    
+    Label:
+        id: label2
+        font_size: "30dp"
+        text: '0'
+        color: 3, 1, 2, 1

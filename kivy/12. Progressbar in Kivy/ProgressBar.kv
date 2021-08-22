@@ -1,0 +1,34 @@
+<ProgressBarLayout>:
+    orientation: 'vertical'
+
+    canvas:
+        Color:
+            rgba: .45, .28, .5
+        
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    Label:
+        text: '[size=30dp]Progress Bar 1 (at .50)'
+        color: .5, 0, .5, 1
+        markup: True
+
+    ProgressBar:
+        value: .50
+        min: 0
+        max: 1
+        pos_hint: {'x': .1}
+        size_hint_x: .8
+
+    Label:
+        text: '[size=30dp]Progress Bar 1 (at .90)'
+        color: .5, 0, .5, 1
+        markup: True
+
+    ProgressBar:
+        value: .90
+        min: 0
+        max: 1
+        pos_hint: {'x': .1}
+        size_hint_x: .8

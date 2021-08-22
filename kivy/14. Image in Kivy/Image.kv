@@ -1,0 +1,107 @@
+<ImageKivy>:
+    orientation: 'vertical'
+
+    BoxLayout:
+        padding: 5
+
+        Image:
+            source: 'img/tsukasa married.jfif'
+            size_hint_x: 0.4
+            allow_stretch: True
+
+        Label:
+            text: 'Tsukasa Married'
+            font_size: 15
+            bold: True
+        
+        Label:
+            text: 'Tonikaku Kawaii'
+            font_size: 15
+    
+    Label:
+        canvas.before:
+            Color:
+                rgba: (1, 1, 1, 1)
+            
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        
+        size_hint_y: None
+        height: 1
+
+    BoxLayout:
+        padding: 5
+
+        Image:
+            source: 'img/tsukasa smug.jfif'
+            size_hint_x: 0.4
+            allow_stretch: True
+
+        Label:
+            text: 'Tsukasa Smug'
+            font_size: 15
+            bold: True
+        
+        Label:
+            text: 'Tonikaku Kawaii'
+            font_size: 15
+
+    Label:
+        canvas.before:
+            Color:
+                rgba: (1, 1, 1, 1)
+            
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        
+        size_hint_y: None
+        height: 1
+    
+    BoxLayout:
+        padding:5
+
+        AsyncImage:
+            source: 'http://kivy.org/logos/kivy-logo-black-64.png'
+            width: 100
+            allow_stretch: True
+  
+        Label:
+            text:" Asynchronous Image "
+            font_size:15
+            bold:True
+  
+        Label:
+            text:"Kivy Logo"
+            font_size:15
+
+    Label:
+        canvas.before:
+            Color:
+                rgba: (1, 1, 1, 1)
+            
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        
+        size_hint_y: None
+        height: 1
+
+    BoxLayout:
+        padding:5
+          
+        AsyncImage:
+            size_hint_y: None
+            source: 'http://kivy.org/slides/kivypictures-thumb.jpg'
+            width: 100
+            allow_stretch: True
+  
+        Label:
+            text:"Asynchronous Image "
+            font_size:15
+            bold:True
+  
+        Label:
+            text:" Webserver image "
+            font_size:15

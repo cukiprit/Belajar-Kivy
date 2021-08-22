@@ -1,0 +1,10 @@
+<SampleBoxLayout>:
+    Spinner:
+        id: spinner_id
+        on_text: root.spinner_clicked(spinner_id.text)
+        text: 'Python'
+        values: ["Python", "JavaScript", "C++", "GoLang", "PHP", "Ruby"]
+
+        size_hint: None, None
+        size: 200, 50
+        pos_hint: {'center_x': .5, 'top': 1}

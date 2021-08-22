@@ -1,0 +1,11 @@
+<CanvasWidget@Widget>:
+    canvas:
+        Color:
+            rgb: (1, 0, 0, 1) if self.state == 'normal' else (0, 0, 1, 1)
+
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: 100, 100, 100, 100
+
+    on_release: print("Saya telah di klik")
