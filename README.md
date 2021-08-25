@@ -1,7 +1,7 @@
 # Belajar Kivy
 
 
-### List Tutorial :
+### List Tutorial:
 
  1. [Kivy file](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/1.%20kivy%20file).
  2. [Box Layout in kivy](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/2.%20Box%20Layout%20in%20kivy).
