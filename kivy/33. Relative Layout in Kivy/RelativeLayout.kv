@@ -1,0 +1,36 @@
+<Button>:
+    font_size: 20
+    size_hint: 0.2, 0.2
+
+<RelativeLayoutEx>:
+    canvas:
+        Color:
+            rgb: 0, 1, 1
+        Rectangle:
+            pos: [0.2 * coord for coord in self.size]
+            size: [0.6 * coord for coord in self.size]
+
+    Button:
+        text: "Button 1"
+        background_color: 0.1, 0.5, 0.6, 1
+        pos_hint: {"x": 0, "y": 0}
+
+    Button:
+        text: "Button 2"
+        background_color: 1, 0, 0, 1
+        pos_hint: {"right": 1, "y": 0}
+
+    Button:
+        text: "Andhika"
+        background_color: 0.4, 0.5, 0.6, 1
+        pos_hint: {"center_x": .5, "center_y": .5}
+
+    Button:
+        text: "Button 3"
+        background_color: 0, 0, 1, 1
+        pos_hint: {"x": 0, "top": 1}
+        
+    Button:
+        text: "Button 4"
+        background_color: 0.8, 0.9, 0.2, 1
+        pos_hint: {"right": 1, "top": 1}

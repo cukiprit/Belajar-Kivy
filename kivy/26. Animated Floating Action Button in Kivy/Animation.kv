@@ -1,0 +1,31 @@
+<FloatButton@FloatLayout>:
+    id: float_root
+    size_hint: (None, None)
+    text: ''
+    btn_size: (70, 70)
+    size: (70, 70)
+    bg_color: (0.404, 0.227, 0.718, 1.0)
+    pos_hint: {'x': .6}
+
+    Button:
+        text: float_root.text
+        markup: True
+        font_size: 40
+        size_hint: (None, None)
+        size: float_root.btn_size
+        pos_hint: {'x': 5.5, 'y': 3.8}
+        background_normal: ''
+        background_color: (0, 0, 0, 0)
+        canvas.before:
+            Color:
+                rgba: (0.404, 0.227, 0.718, 1.0)
+            Ellipse:
+                size: self.size
+                pos: self.pos
+<Base>:
+    BoxLayout:
+        FloatButton:
+            id: cta
+            text: '+'
+            markup: True
+            background_color: 1, 0, 1, 0

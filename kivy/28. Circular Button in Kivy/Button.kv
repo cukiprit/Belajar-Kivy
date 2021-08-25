@@ -1,0 +1,12 @@
+<CircularButton>:
+    canvas:
+        Color:
+            rgb: (1, 0, 0, 1) if self.state == 'normal' else (1, 0, 1, 1)
+
+        RoundedRectangle:
+            size: (self.size)
+            pos: (self.pos)
+            radius: [400, ]
+
+    on_release:
+        print('Tombol ini dibuat dengan canvas')

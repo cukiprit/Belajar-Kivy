@@ -1,0 +1,11 @@
+for row wise orientation use:
+'lr-tb'
+'lr-bt'
+'rl-tb'
+'rl-bt'
+
+for column wise orientation use:
+'tb-lr'
+'tb-rl'
+'bt-lr'
+'bt-rl'

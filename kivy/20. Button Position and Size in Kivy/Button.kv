@@ -1,0 +1,21 @@
+<ButtonFloatLayout>:
+    Button:
+        text: "Position Hint"
+        background_color: 0.5, 0.1, 0.6, 1
+        # Memberikan ukuran sebesar 30% dari tinggi dan lebar dari layout
+        size_hint: 0.3, 0.3
+        # akan diposisikan di 0 % kanan dan 100% top/atas
+        pos_hint: {"x": 0, "top": 1}
+
+    Button:
+        text: "pos"
+        background_color: 0.5, 0.6, 0.4, 1
+        size_hint: 0.3, 0.3
+        pos: 100, 100
+
+    Button:
+        text: "Size Hint"
+        background_color: 0, 0, 1, 1
+        # memberikan ukuran button sebesar 40% tinggi dan 50% lebar dari layout
+        size_hint: 0.5, 0.4
+        pos_hint: {"x": .4, "top": 1}

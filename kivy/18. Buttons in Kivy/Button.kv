@@ -1,0 +1,16 @@
+<ButtonWidget>:
+
+    canvas.before:
+        Color:
+            rgba: 0.72, 0.60, 0.92, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    
+    Button:
+        text: 'Pencet saya'
+        font_size: '15dp'
+        background_color: (1, 1, 1, 1)
+        color: (1, 1, 1, 1)
+        pos: self.width, self.height
+        on_press: root.callback(self)
