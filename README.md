@@ -1,7 +1,7 @@
 # Belajar Kivy
 
 
-### List Project :
+### List Tutorial :
 
  1. [Kivy file](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/1.%20kivy%20file).
  2. [Box Layout in kivy](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/2.%20Box%20Layout%20in%20kivy).
@@ -37,3 +37,8 @@
  32. [Anchor Layout in Kivy](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/32.%20Anchor%20Layout%20in%20Kivy).
  33. [Relative Layout in Kivy](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/33.%20Relative%20Layout%20in%20Kivy).
  34. [Page Layout in Kivy](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy/34.%20Page%20Layout%20in%20Kivy).
+
+### List Projects:
+ 1. [Ellipse](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Ellipse%20in%20Kivy).
+ 2. [Login Page](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Login%20Page).
+ 3. [Color Slider](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Color%20Slider).
