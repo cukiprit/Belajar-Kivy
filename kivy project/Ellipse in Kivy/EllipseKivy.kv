@@ -1,0 +1,120 @@
+#:set angle_start_row2 240
+#:set angle_end_row2 480
+#:set angle_start_row3 120
+#:set angle_end_row3 240
+
+<EllipseKivy>:
+    cols: 4
+
+    canvas:
+        Color:
+            rgb: 0, 0, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    # Row 1
+    RelativeLayout:
+        canvas:
+            Color:
+                rgb: 1, .8, .5
+            Ellipse:
+                pos: 0, 0
+                size: self.size
+    
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                segments: 5
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                segments: 4
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                segments: 3
+                pos: 0, 0
+                size: self.size
+
+    # row 2
+    RelativeLayout:
+        canvas:
+            Color:
+                rgb: 1, .59, .86
+            Ellipse:
+                angle_start: angle_start_row2
+                angle_end: angle_end_row2
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row2
+                angle_end: angle_end_row2
+                segments: 5
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row2
+                angle_end: angle_end_row2
+                segments: 4
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row2
+                angle_end: angle_end_row2
+                segments: 3
+                pos: 0, 0
+                size: self.size
+
+    # row 3
+    RelativeLayout:
+        canvas:
+            Color:
+                rgb: .5, .5, .5
+            Ellipse:
+                angle_start: angle_start_row3
+                angle_end: angle_end_row3
+                pos: 0, 0
+                size: self.size
+    
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row3
+                angle_end: angle_end_row3
+                segments: 5
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row3
+                angle_end: angle_end_row3
+                segments: 4
+                pos: 0, 0
+                size: self.size
+
+    RelativeLayout:
+        canvas:
+            Ellipse:
+                angle_start: angle_start_row3
+                angle_end: angle_end_row3
+                segments: 3
+                pos: 0, 0
+                size: self.size
