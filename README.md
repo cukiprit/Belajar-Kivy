@@ -42,3 +42,4 @@
  1. [Ellipse](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Ellipse%20in%20Kivy).
  2. [Login Page](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Login%20Page).
  3. [Color Slider](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Color%20Slider).
+ 4. [Screen Manager](https://github.com/cukiprit/Belajar-Kivy/tree/main/kivy%20project/Screen%20Manager%20in%20Kivy).
