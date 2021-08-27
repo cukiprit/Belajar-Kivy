@@ -1,5 +1,6 @@
 # Belajar Kivy
 
+Belajar menggunakan framework kivy. Males ngasih penjelasan satu-satu, baca sendiri aja dokumentasinya [disini](https://kivy.org/doc/stable/).
 
 ### List Tutorial:
 
