@@ -1,0 +1,3 @@
+title=ScreenManager
+author=Andhika
+orientation=portrait

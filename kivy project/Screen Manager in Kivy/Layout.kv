@@ -1,0 +1,150 @@
+#:import SlideTransition kivy.uix.screenmanager.SlideTransition
+
+<RootScreen>:
+    transition: SlideTransition()
+    ScreenOne:
+        name: 'Layar 1'
+    ScreenTwo:
+        name: 'Layar 2'
+    ScreenThree:
+        name: 'Layar 3'
+    ScreenFour:
+        name: 'Layar 4'
+
+<CustGridLayout@GridLayout>:
+    cols: 2
+    size_hint_y: None
+    height: dp(100)
+
+<ScreenOne>:
+    GridLayout:
+        rows: 2
+        Image:
+            source: 'img/Andhika.jpg'
+        
+        CustGridLayout:
+            Button:
+                text: 'Foto'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 1'
+            Button:
+                text: 'Nama'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 2'
+            Button:
+                text: 'Jurusan'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 3'
+            Button:
+                text: 'Komik Favorit'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 4'
+
+<ScreenTwo>:
+    GridLayout:
+        rows: 2
+        Label:
+            text: 'Andhika Dwiky Pratama'
+            font_name: 'fonts/Nunito.ttf'
+            size_hint: 1, 0.1
+            font_size: self.width / 20
+
+        CustGridLayout:
+            Button:
+                text: 'Foto'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 1'
+            Button:
+                text: 'Nama'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 2'
+            Button:
+                text: 'Jurusan'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 3'
+            Button:
+                text: 'Komik Favorit'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 4'
+
+<ScreenThree>:
+    GridLayout:
+        rows: 2
+        Label:
+            text: 'Teknik Informatika Semester 3'
+            font_name: 'fonts/Nunito.ttf'
+            size_hint: 1, 0.1
+            font_size: self.width / 20
+
+        CustGridLayout:
+            Button:
+                text: 'Foto'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 1'
+            Button:
+                text: 'Nama'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 2'
+            Button:
+                text: 'Jurusan'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 3'
+            Button:
+                text: 'Komik Favorit'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 4'
+
+<ScreenFour>:
+    GridLayout:
+        rows: 2
+        GridLayout:
+            cols: 2
+            Label:
+                text: 'Tonikaku Kawaii'
+                font_name: 'fonts/Nunito.ttf'
+                size_hint: 1, 0.1
+                font_size: self.width / 15
+            Image:
+                source: 'img/TK.jpg'
+
+            Label:
+                text: 'Mato Seihei No Slave'
+                font_name: 'fonts/Nunito.ttf'
+                size_hint: 1, 0.1
+                font_size: self.width / 15
+            Image:
+                source: 'img/msns.jpg'
+
+        CustGridLayout:
+            Button:
+                text: 'Foto'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 1'
+            Button:
+                text: 'Nama'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 2'
+            Button:
+                text: 'Jurusan'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 3'
+            Button:
+                text: 'Komik Favorit'
+                on_press:
+                    root.manager.transition.duration = 0.5
+                    root.manager.current = 'Layar 4'
